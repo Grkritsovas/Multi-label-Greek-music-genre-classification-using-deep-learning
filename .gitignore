@@ -7,6 +7,10 @@
 *.png
 *.keras
 *.tfrecord
+.env
+*.env
+*.key
+*.secret
 
 # Ignore notebook checkpoints
 .ipynb_checkpoints/
