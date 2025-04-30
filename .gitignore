@@ -1,0 +1,70 @@
+# Ignore large file types
+*.h5
+*.mp4
+*.mp3
+*.wav
+*.docx
+*.png
+*.keras
+*.tfrecord
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs
+logs/
+
+# Ignore dataset folders and saved models
+dataset_creation/tfrecord_dataset_3s_norm
+dataset_creation/tfrecord_6s_norm
+dataset_creation/tfrecord_dataset_10s_80
+dataset_creation/tfrecord_dataset_14s_norm
+dataset_creation/tfrecord_dataset_20s_norm
+dataset_creation/tfrecord_dataset_30s_norm
+dataset_creation/final_data/
+dataset_creation/balanced_tfrecord_dataset
+saved_models/
+
+# Irrelevant JSON files (overwritten or deprecated)
+json/test_data_part.json
+json/test_song_map.json
+json/train_data_part.json
+json/train_song_map.json
+json/train_data.json
+json/test_data.json
+json/processed_songs_80_16s_stratified.json
+json/processed_songs_80_16s.json
+json/processed_songs_64_16s.json
+json/processed_songs_64
+
+# Deprecated or refactored scripts
+create_mel_spectrograms.py
+create_stratified_mel_spectrograms.py
+3_create_mel_spectrograms.ipynb
+
+# Initial/legacy notebooks
+4_model_creation.ipynb
+Hybrid_Model.ipynb
+Hybrid_Model.py
+
+# In-progress notebooks (optional – track if needed)
+AventIQ.ipynb
+Untitled.ipynb
+Untitled1.ipynb
+
+# Deprecated folder
+_deprecated_stuff/
+
+# Legacy paths – now part of dataset_creation
+creating_spectrogram_batches/
+
+# Keep all .py files in dataset_creation/
+!dataset_creation/*.py
+
+# Ignore all subfolders in dataset_creation/
+dataset_creation/*/
+dataset_creation/*.xlsx
+
+# Ignore music datasets
+downloading_data/greek_mp3
+downloading_data/internet_archive_greek_music
